@@ -1,0 +1,82 @@
+/* Container geral */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Contador */
+.contador {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input + botão */
+.novaTarefa {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.novaTarefa input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.novaTarefa button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Lista */
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+/* Card da tarefa */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Lado esquerdo */
+.itemInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Texto concluído */
+.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Botão excluir */
+.btnExcluir {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
