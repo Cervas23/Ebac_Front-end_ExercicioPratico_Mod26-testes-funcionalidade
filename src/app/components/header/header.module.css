@@ -1,0 +1,28 @@
+.header {
+    background: radial-gradient(circle at 30% 20%, #0B1F3A, #050816 70%);
+    padding: 1rem 2rem;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo a{
+    color: #00E5FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.header__nav a{
+    color: #00E5FF;
+    text-decoration: none;
+    margin-left: 1rem;
+
+    &:hover{
+        color: #7B5CFF;
+    }
+}
+

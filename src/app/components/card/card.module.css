@@ -1,0 +1,55 @@
+.card {
+  width: 100%;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 14px 16px;
+  border: 1px solid #e3e3e3;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card__check input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.card__texto {
+  font-size: 15px;
+  color: #333;
+}
+
+.card__texto.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.card__delete {
+  border: none;
+  background: #dc3545;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card__delete:hover {
+  background: #bb2d3b;
+}
